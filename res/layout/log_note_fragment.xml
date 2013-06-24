@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10dp" >
+	
+    <TextView
+		android:id="@+id/log_note_title"
+		android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content"
+	 	android:textStyle="bold"
+        android:textSize="15sp"
+	 	android:layout_marginBottom="10dp" />
+    
+    <TextView
+		android:text="@string/log_note_label"
+		android:layout_width="wrap_content"
+	 	android:layout_height="wrap_content" />
+    
+    <EditText
+	    android:id="@+id/log_note_edit"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:lines="5"
+	    android:inputType="textMultiLine"
+	    android:scrollHorizontally="false"
+	    android:gravity="top|left" />
+    
+	<TextView
+		android:text=""
+		android:layout_width="wrap_content"
+	 	android:layout_height="0dp" 
+	 	android:layout_weight="1" />
+	 	
+	<Button
+	    android:id="@+id/save_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/save_text" />
+	
+</LinearLayout>    

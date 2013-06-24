@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Note App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="new_text_note_title">Create New Text note</string>
+    <string name="new_log_note_title">Create New Log note</string>
+    <string name="new_text_pic_note_title">Create New Text+Picture note</string>
+    
+    <string name="update_text_note_title">Update Text note</string>
+    <string name="update_log_note_title">Update Log note</string>
+    <string name="update_text_pic_note_title">Update Text+Picture note</string>
+    
+    <string name="text_note_type">Text note</string>
+    <string name="log_note_type">Log note</string>
+    <string name="text_pic_note_type">Text+Picture note</string>
+    
+    <string name="new_text">New</string>
+    <string name="open_text">Open</string>
+    <string name="delete_text">Delete</string>
+    <string name="save_text">Save</string>
+    <string name="load_text">Load</string>
+    <string name="confirm_delete_text">Delete note?</string>
+    <string name="yes_text">Yes</string>
+    <string name="no_text">No</string>
+    
+    <string name="text_note_label">Enter note</string>
+    
+    <string name="log_note_label">Enter note</string>
+    
+    <string name="text_picture_note_label">Enter note</string>
+    <string name="url_image_label">Enter image url</string>
+    <string name="loading">loading&#8230;</string>
+    <string name="load_error">Error while loading image</string>
+    
+    <string name="none"></string>
+
+</resources>
